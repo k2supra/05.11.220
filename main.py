@@ -18,3 +18,4 @@ while True:
     except Exception as ex:
         print(f"Error: {ex}")
 print("Final sum = " + str(sum(list)))
+print("AVG = ", sum(list) / len(list))
